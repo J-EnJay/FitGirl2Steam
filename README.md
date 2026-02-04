@@ -34,7 +34,7 @@
 ## 📸 效果预览
 | 原页面 | 脚本生效后 |
 |--------|------------|
-| ![原页面示例](https://example.com/raw/original.png) | ![脚本生效后示例](https://example.com/raw/with-script.png) |
+| ![原页面示例](https://github.com/J-EnJay/FitGirl2Steam/blob/main/img/1.png) | ![脚本生效后示例](https://github.com/J-EnJay/FitGirl2Steam/blob/main/img/2.png) |
 
 > 注：示例图仅为示意，实际效果以脚本运行结果为准
 
