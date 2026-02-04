@@ -36,8 +36,6 @@
 |--------|------------|
 | ![原页面示例](https://github.com/J-EnJay/FitGirl2Steam/blob/main/img/1.png) | ![脚本生效后示例](https://github.com/J-EnJay/FitGirl2Steam/blob/main/img/2.png) |
 
-> 注：示例图仅为示意，实际效果以脚本运行结果为准
-
 ## ⚠️ 注意事项
 1. 脚本仅适配 `fitgirl-repacks.site` 域名，其他镜像站/仿站可能无法生效
 2. 搜索结果的准确性依赖游戏标题匹配度，部分特殊命名/小众游戏可能搜索结果不准确
