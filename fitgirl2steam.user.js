@@ -52,7 +52,7 @@
                 steamLink.rel = 'noopener noreferrer';
                 steamLink.style.marginLeft = '8px';
                 steamLink.style.padding = '2px 6px';
-                steamLink.style.backgroundColor = '#1b2838';
+                steamLink.style.backgroundColor = '#223e59';
                 steamLink.style.color = 'white';
                 steamLink.style.borderRadius = '3px';
                 steamLink.style.textDecoration = 'none';
