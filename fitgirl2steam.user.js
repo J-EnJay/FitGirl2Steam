@@ -2,12 +2,19 @@
 // @name         FitGirl Repacks 跳转Steam商店 - FitGirl2 Repacks to Steam Store
 // @namespace    https://github.com/J-EnJay/FitGirl2Steam
 // @version      1.0
-// @description  Adds Steam store links to game titles on fitgirl-repacks.site
-// @description:zh-CN 为 fitgirl-repacks.site 网站内的游戏标题自动添加 Steam 商店和 SteamDB 的搜索链接
+// @description  Adds Steam store/SteamDB links to game titles on fitgirl-repacks.site
+// @description:zh-CN 为 fitgirl-repacks.site 游戏标题添加 Steam 商店和 SteamDB 搜索链接
 // @author       JEnJay
+// @copyright    2026, JEnJay (https://github.com/J-EnJay)
+// @license      MIT
+// @homepageURL  https://github.com/J-EnJay/FitGirl2Steam
+// @supportURL   https://github.com/J-EnJay/FitGirl2Steam/issues
 // @match        https://fitgirl-repacks.site/*
 // @icon         https://fitgirl-repacks.site/favicon.ico
+// @language     zh-CN, en
 // @grant        none
+// @updateURL    https://openuserjs.org/meta/J-EnJay/FitGirl2Steam.meta.js
+// @downloadURL  https://openuserjs.org/install/J-EnJay/FitGirl2Steam.user.js
 // ==/UserScript==
 
 (function() {
