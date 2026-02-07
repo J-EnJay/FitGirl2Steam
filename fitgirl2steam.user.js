@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         FitGirl Repacks 跳转Steam商店 - FitGirl2 Repacks to Steam Store
 // @namespace    https://github.com/J-EnJay/FitGirl2Steam
-// @version      1.0
+// @version      1.1
 // @description  Adds Steam store/SteamDB links to game titles on fitgirl-repacks.site
 // @description:zh-CN 为 fitgirl-repacks.site 游戏标题添加 Steam 商店和 SteamDB 搜索链接
 // @author       JEnJay
@@ -16,6 +16,8 @@
 // @updateURL    https://openuserjs.org/meta/J-EnJay/FitGirl2Steam.meta.js
 // @downloadURL  https://openuserjs.org/install/J-EnJay/FitGirl2Steam.user.js
 // ==/UserScript==
+
+/* jshint esversion: 6 */
 
 (function() {
     'use strict';
@@ -44,10 +46,15 @@
                 }
             });
             gameTitle = gameTitle.trim();
-            // 过滤掉“ – ”及其之后的所有字符串
+            // 过滤掉" – "及其之后的所有字符串
             const dashIndex = gameTitle.indexOf(' – ');
             if (dashIndex !== -1) {
                 gameTitle = gameTitle.substring(0, dashIndex).trim();
+            }
+            // 如果同时出现":"和"Edition"，过滤掉":"之后的所有字符
+            const colonIndex = gameTitle.indexOf(':');
+            if (colonIndex !== -1 && gameTitle.toLowerCase().includes('edition')) {
+                gameTitle = gameTitle.substring(0, colonIndex).trim();
             }
             const steamUrl = createSteamUrl(gameTitle);
             const steamDbUrl = createSteamDbUrl(gameTitle);
